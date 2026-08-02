@@ -1,8 +1,24 @@
 aid: tiamat
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tiamat.png
 name: Tiamat
-description: 'Tiamat is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Tiamat is a frontier-technology startup backed by DCM Ventures. It closed a
+  Series A round of nearly $10 million co-led by DCM and Vitalbridge (announced May 2023).
+  The company was added to the API Evangelist network as a portfolio lead from dcm-ventures.
+  Its primary web presence, tiamat.com, is served entirely behind a Chinese CDN (Tencent
+  EdgeOne) and was not reachable from the enrichment environment; no public developer
+  portal, OpenAPI, or other API surface was discoverable during this pass. This profile
+  remains a stub awaiting a reachable API surface before artifact enrichment can proceed.'
 url: https://raw.githubusercontent.com/api-evangelist/tiamat/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,13 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Frontier Tech
+- Startup
+- Venture Backed
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +43,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.tiamat.com/
+  url: https://tiamat.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
